@@ -1,0 +1,61 @@
+.container-encabezado-dog {
+    background-color: #FFB07A;
+    color: #812a00;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Londrina Solid', cursive;
+}
+
+.container-encabezado-dog div {
+    margin: 15px;
+}
+
+.text-encabezado-dog {
+    color: #812a00;
+    font-family: 'Londrina Solid', cursive;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-img-asa {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+    background-color: #FFB07A;
+}
+
+.container-text-asa {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.letraPerro {
+    font-family: 'Londrina Solid', cursive;
+    transition: all 500ms ease-out;
+    padding: 2rem;
+    color: #812a00;
+}
+
+.letraPerro:hover {
+    color: white
+}
+
+.container-filtro {
+    margin-top: 50px;
+    color: #FFB07A;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: 3rem;
+    margin-bottom: 5rem;
+}
+
+.propiedades-boton {
+    margin-top: 0.5rem;
+    font-family: 'Bebas Neue', cursive;
+    color: #812a00;
+}
