@@ -1,0 +1,144 @@
+/* carousel */
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item .size-carousel {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.carousel-item .container-iratienda {
+    position: absolute;
+    top: 70%;
+    left: 15%;
+}
+
+.carousel-item .container-iratienda .iratienda {
+    height: 2.5rem;
+    width: 10rem;
+    border: none;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #000;
+    transition: ease-out 0.4s;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-item .container-iratienda .iratienda:hover {
+    box-shadow: inset 300px 0 0 0 #000;
+    cursor: pointer;
+    color: #fff;
+}
+
+/* dicotomia */
+
+.container-category {
+    display: flex;
+    justify-content: center;
+    margin: 0 30px;
+    gap: 30px;
+}
+
+.container-category .container-category-dog {
+    height: 50rem;
+    width: 94rem;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/chunis-petshop-1.appspot.com/o/Imagenes%2Fperro.webp?alt=media&token=cd5f8524-21a7-4722-86a6-c5c8a1afc61c");
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 1px 10px #000001;
+    transition: all 0.5s ease-in-out;
+    box-sizing: border-box;
+}
+
+.container-category .container-category-dog .container-dog {
+    margin-top: 350px;
+    text-align: center;
+}
+
+.container-category .container-category-dog .container-dog .title-dog {
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    margin: 30px;
+    position: relative;
+}
+
+.container-category .container-category-dog .container-dog .text-dog {
+    padding: 10px;
+    border: 3px solid #fff;
+    color: #fff;
+    transition: all 500ms ease;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.container-category .container-category-dog .container-dog .text-dog:hover {
+    color: #023a71;
+    background-color: #fff;
+}
+
+.container-category .container-category-cat {
+    height: 50rem;
+    width: 94rem;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/chunis-petshop-1.appspot.com/o/Imagenes%2Fgato.webp?alt=media&token=c13a4a4b-5df2-4bf6-a254-69b4637f03ea");
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 1px 10px #000001;
+    transition: all 0.5s ease-in-out;
+    box-sizing: border-box;
+}
+
+.container-category .container-category-cat .container-cat {
+    margin-top: 350px;
+    text-align: center;
+}
+
+.container-category .container-category-cat .container-cat .title-cat {
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    margin: 30px;
+}
+
+.container-category .container-category-cat .container-cat .text-cat {
+    padding: 10px;
+    border: 3px solid #fff;
+    color: #fff;
+    transition: all 500ms ease;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.container-category .container-category-cat .container-cat .text-cat:hover {
+    color: #023a71;
+    background-color: #fff;
+}
+
+/* publicity */
+.container-publicity {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    transition: all 500ms ease-out;
+}
+
+.container-publicity .container-card {
+    display: flex;
+    margin: 43px;
+    text-align: center;
+}
+
+.container-publicity .container-card .icon-publicity {
+    margin-right: 12px;
+}
+
+.container-publicity .container-card .text-publicity {
+    font-size: 13px;
+    display: flex;
+}
